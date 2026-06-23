@@ -75,7 +75,7 @@ with st.form("triangle_form"):
     </div>
     """, unsafe_allow_html=True)
 
-    c1, c2, c3, c4= st.column(4)
+    c1, c2, c3, c4= st.columns(4)
     with c1:
         fever = st.checkbox("Fever")
         cough = st.checkbox("Cough")
