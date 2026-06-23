@@ -56,7 +56,7 @@ DEPT_INFO = {
     },
 }
 
-st.markdow("""
+st.markdown("""
 <dif style="background-color:# 1e3a8a; test-align:center;">
         <div style="color: #ffffff; font-size: 20px;">
             Smart Hospital Patient Navigator
