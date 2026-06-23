@@ -67,12 +67,11 @@ st.markdown("""
 
 with st.form("triangle_form"):
     st.markdown("""
-    <div style="color: #f0f9ff; border:1px solid #bae6fd">
-        <div style= "display:flex; align-items:center;">
-            <span>1<span>
-            <span> What are your main symptoms? <span>
+    <div style="background:#f0f9ff; border:1px solid #bae6fd;">
+        <div style="display:flex; align-items:center;">
+            <span style="color: #1e3a8a;">1</span>
+            <span style="color: #1e3a8a;">What are your main symptoms?</span>
         </div>
     </div>
-    
     """, unsafe_allow_html=True)
 
