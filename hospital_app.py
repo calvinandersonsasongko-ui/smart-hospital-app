@@ -70,7 +70,7 @@ with st.form("triangle_form"):
     <div style="color: #f0f9ff; border:1px solid #bae6fd">
         <div style= "display:flex; align-items:center;">
             <span>1<span>
-            <span> What are your main symptoms <span>
+            <span> What are your main symptoms? <span>
         </div>
     </div>
     
