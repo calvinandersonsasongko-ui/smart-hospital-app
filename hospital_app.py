@@ -61,6 +61,6 @@ st.markdown("""
         <div style="color: #ffffff; font-size: 20px;">
             Smart Hospital Patient Navigator
         </div>
-</div, unsafe_allow_html=True>
+</div>
 
-""")
+""", unsafe_allow_html=True)
