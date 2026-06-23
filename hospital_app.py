@@ -82,13 +82,13 @@ with st.form("triangle_form"):
     with c2:
         headache = st.checkbox("Headache")
         chest_pain = st.checkbox("Chest pain")
-    with c3
+    with c3:
         stomach_pain = st.checkbox("Stomach pain")
         shortness_breath = st.checkbox("Shortness breath")
-    with c4
+    with c4:
         nausea_vomitting = st.checkbox("Nausea vomitting")
         dizziness = st.checkbox("Dizziness")
     c5, _, _, _ = st.columns(4)
-    with c5
+    with c5:
         skin_rash = st.checkbox("Skin rash")
         
