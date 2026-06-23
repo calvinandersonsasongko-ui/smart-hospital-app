@@ -75,3 +75,20 @@ with st.form("triangle_form"):
     </div>
     """, unsafe_allow_html=True)
 
+    c1, c2, c3, c4= st.column(4)
+    with c1:
+        fever = st.checkbox("Fever")
+        cough = st.checkbox("Cough")
+    with c2:
+        headache = st.checkbox("Headache")
+        chest_pain = st.checkbox("Chest pain")
+    with c3
+        stomach_pain = st.checkbox("Stomach pain")
+        shortness_breath = st.checkbox("Shortness breath")
+    with c4
+        nausea_vomitting = st.checkbox("Nausea vomitting")
+        dizziness = st.checkbox("Dizziness")
+    c5, _, _, _ = st.columns(4)
+    with c5
+        skin_rash = st.checkbox("Skin rash")
+        
